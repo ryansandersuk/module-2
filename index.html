@@ -27,8 +27,8 @@ p {
   width: 100%;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
+/* Desktop */
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     border: 1px solid green;
@@ -71,8 +71,8 @@ p {
   }
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     border: 1px solid green;
@@ -120,14 +120,9 @@ p {
 <h1>Responsive Layout</h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+  <div class="col-lg-4 col-md-6"><p>Item 1</p></div>
+  <div class="col-lg-4 col-md-6"><p>Item 2</p></div>
+  <div class="col-lg-4 col-md-12"><p>Item 3</p></div>
 </div>
 </body>
 </html>
